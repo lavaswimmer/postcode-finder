@@ -2,11 +2,11 @@ module.exports = {
   pwa: {
     workboxPluginMode: 'GenerateSW',
     workboxOptions: {
-      navigateFallback: 'index.html',
+      navigateFallback: '/index.html',
       runtimeCaching: [
         {
           urlPattern: new RegExp(
-            '^https://geodata.nationaalgeoregister.nl/locatieserver/free?fq=postcode'
+            '^https://geodata.nationaalgeoregister.nl/locatieserver/'
           ),
           handler: 'networkFirst',
           options: {
