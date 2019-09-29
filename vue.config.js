@@ -6,15 +6,12 @@ module.exports = {
       runtimeCaching: [
         {
           urlPattern: new RegExp(
-            'https://geodata.nationaalgeoregister.nl/locatieserver/'
+            '^https://geodata.nationaalgeoregister.nl/locatieserver/'
           ),
           handler: 'networkFirst',
           options: {
             networkTimeoutSeconds: 20,
-            cacheName: 'api-cache',
-            cacheableResponse: {
-              statuses: [0, 200]
-            }
+            cacheName: 'api-cache'
           }
         }
       ]
