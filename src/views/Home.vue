@@ -3,7 +3,7 @@
   <div class="ion-page">
     <ion-header>
       <ion-toolbar>
-        <ion-title>ZipInfo</ion-title>
+        <ion-title>Postcode Info</ion-title>
       </ion-toolbar>
     </ion-header>
     <ion-content class="ion-padding">
