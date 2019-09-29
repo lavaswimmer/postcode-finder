@@ -3,7 +3,7 @@
     <form @submit="onSubmit">
       <ion-col>
         <ion-item>
-          <ion-label>Zipcode:</ion-label>
+          <ion-label>Postcode:</ion-label>
           <ion-input
             :value="zip"
             @input="zip = $event.target.value"
