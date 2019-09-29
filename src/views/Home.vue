@@ -43,8 +43,6 @@ export default {
       }
 
       this.info = await data.response.docs[0];
-
-      console.log(this.info);
     },
     clearInfo() {
       this.info = null;
